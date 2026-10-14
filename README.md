@@ -34,3 +34,24 @@ Pada M2 fitur yang digunakan meliputi:
 - undo dan redo
 
 Implementasi M2 berada di `backend/m2_antrean.py`.
+
+## Milestone 3
+
+Untuk M3 fokusnya beralih ke proses pengurutan dan pencarian data. Untuk sorting saya mencoba insertion sort dan merge sort, sedangkan untuk pencarian digunakan linear search dan binary search.
+
+Insertion sort bekerja dengan mengambil data satu per satu kemudian menempatkannya pada posisi yang sesuai. Cara ini cukup sederhana, tetapi ketika jumlah data semakin banyak prosesnya juga menjadi lebih berat.
+
+Merge sort bekerja dengan membagi data menjadi bagian yang lebih kecil kemudian menggabungkannya kembali dalam keadaan terurut. Pada jumlah data yang lebih besar, cara ini lebih efisien dibandingkan insertion sort.
+
+Untuk pencarian, linear search memeriksa data satu per satu sampai target ditemukan. Binary search bekerja dengan membagi area pencarian menjadi dua pada setiap langkah, tetapi data harus sudah dalam keadaan terurut.
+
+Selain hasil sorting dan searching, program juga mencatat jumlah perbandingan yang dilakukan supaya perbedaan cara kerja setiap algoritma bisa dilihat dengan lebih jelas.
+
+Fitur yang digunakan pada M3:
+
+- insertion sort
+- merge sort
+- linear search
+- binary search
+
+Implementasi M3 berada di `backend/m3_laporan.py`.
